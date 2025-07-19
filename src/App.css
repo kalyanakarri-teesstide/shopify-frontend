@@ -27,19 +27,3 @@ h1 {
   text-align: left;
 }
 
-const thStyle = {
-  textAlign: 'left',
-  padding: '12px',
-  borderBottom: '1px solid #ddd',
-  fontWeight: '600',
-  fontSize: '15px',
-  color: '#333'
-};
-
-const tdStyle = {
-  padding: '12px',
-  borderBottom: '1px solid #eee',
-  fontSize: '14px',
-  color: '#555',
-  verticalAlign: 'top'
-};
