@@ -82,7 +82,7 @@ function App() {
                 <tr key={order.erp_order_id}>
                   <td style={tdStyle}>{order.erp_order_id}</td>
                   <td style={tdStyle}>{order.customer_name || '-'}</td>
-                  <td style={tdStyle}>${order.total}</td>
+                  <td style={tdStyle}>{order.total}</td>
                   <td style={tdStyle}>
                     {order.items.map((item, index) => (
                       <div key={index}>{item.qty} × {item.name}</div>
